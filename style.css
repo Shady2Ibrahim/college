@@ -268,7 +268,7 @@
         .hero {
             height: 100vh;
             min-height: 800px;
-            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('back.jpeg') no-repeat center center/cover;
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/back.jpeg') no-repeat center center/cover;
             display: flex;
             align-items: center;
             text-align: center;
@@ -953,25 +953,32 @@
         
         /* Floating AI Elements */
         .floating-ai {
-            position: absolute;
-            z-index: -1;
-            opacity: 0.1;
+               position: absolute;
+                opacity: 3.1;
+                color: wheat;
+                z-index: 1;
         }
         
-        .floating-ai:nth-child(1) {
-            top: 10%;
-            left: 5%;
-            font-size: 5rem;
-            animation: float 8s ease-in-out infinite;
-        }
+        /* .floating-ai:nth-child(1) {
+               top: 10%;
+                left: 5%;
+                font-size: 5rem;
+                animation: float 8s ease-in-out infinite;
+               
+        } */
         
-        .floating-ai:nth-child(2) {
+        /* .floating-ai:nth-child() {
+            bottom: 15%;
+            right: 5%;
+            font-size: 4rem;
+            animation: float 7s ease-in-out infinite reverse;
+        } */
+        .fa-brain{
             bottom: 15%;
             right: 5%;
             font-size: 4rem;
             animation: float 7s ease-in-out infinite reverse;
         }
-        
         /* Responsive Styles */
         @media (max-width: 1200px) {
             .section-title h2 {
