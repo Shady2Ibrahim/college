@@ -104,8 +104,4 @@
             typing();
         }
         
-        // Uncomment to activate typewriter effect
-        // const heroTitle = document.querySelector('.hero h1');
-        // typeWriter(heroTitle.textContent, heroTitle, 100);
-        // heroTitle.textContent = '';
-    
+        
